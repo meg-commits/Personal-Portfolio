@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+     font-family: "Inter", sans-serif;
+}
+
+/* Headings */
+
+h1, 
+h2,
+h3,
+button {
+    font-family: "Be Vietnam Pro", sans-serif;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #000000;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 0 5px 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px 100px 50px;
+    width: 100%;
+    border: 1px solid #000;
+}
+
+h1 {
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+header p,
+#about p,
+#contact p {
+    padding: 20px 0 20px 0;
+    width: 500px;
+    line-height: 1.5;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* About */
+
+#about {
+    border: 1px solid #000;
+}
+
+#work .grid-container {
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr;
+}
+
+/* General */
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    width: 100px;
+    padding: 12px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: capitalize; 
+    font-weight: 500;
+}
+
