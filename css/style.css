@@ -5,6 +5,11 @@
 
 body {
      font-family: "Inter", sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
 }
 
 /* Headings */
@@ -25,11 +30,6 @@ nav {
     border: 1px solid #000000;
 }
 
-#logo a {
-    text-decoration: none;
-    color: #000;
-}
-
 nav ul {
     display: flex;
 }
@@ -39,16 +39,13 @@ nav ul li {
     padding: 0 5px 0 5px;
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #000;
-}
-
 /* Header */
 
 header {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 100px 50px 100px 50px;
     width: 100%;
     border: 1px solid #000;
@@ -59,6 +56,10 @@ h1 {
     text-transform: uppercase;
 }
 
+h3 {
+    margin-top: 10px;
+}
+
 header p,
 #about p,
 #contact p {
@@ -67,21 +68,71 @@ header p,
     line-height: 1.5;
 }
 
-header a {
-    text-decoration: none;
-    color: #000;
-}
-
 /* About */
 
 #about {
     border: 1px solid #000;
 }
 
-#work .grid-container {
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 2fr;
+/* Work */
+
+.project-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-container {
+    margin: 0 20px 0 20px;
+}
+
+.project-details p {
+    padding: 10px 0 10px 0;
+}
+
+.project-link {
+    padding-right: 20px;
+    font-weight: 500;
+}
+
+/* Skills */
+
+#skills {
+    display: flex; 
+}
+
+#skills h2 {
+    width: 600px;
+    margin: auto;
+}
+
+#skills ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    margin: auto;
+    padding: 40px 0 40px 0;
+}
+
+#skills ul li {
+    list-style: none;
+}
+
+/* Contact */
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact h2 {
+    font-size: 60px;
+}
+
+#contact p {
+    text-align: center;
 }
 
 /* General */
@@ -89,7 +140,7 @@ header a {
 section {
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 200px;
 }
 
 h2 {
@@ -112,4 +163,19 @@ button {
     text-transform: capitalize; 
     font-weight: 500;
 }
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 150px;
+}
+
 
