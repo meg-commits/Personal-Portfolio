@@ -39,6 +39,12 @@ nav ul li {
     padding: 0 5px 0 5px;
 }
 
+#logo a {
+    text-transform: uppercase;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+}
+
 /* Header */
 
 header {
@@ -56,8 +62,11 @@ header {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 96px;
     text-transform: uppercase;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 800;
+    font-style: italic;
 }
 
 h2, 
@@ -179,6 +188,7 @@ button {
 .link {
     text-decoration: none;
     color: #000;
+    font-weight: 500;
 }
 
 /* Footer */
@@ -188,6 +198,7 @@ footer {
     justify-content: center;
     padding: 30px;
     margin-top: 150px;
+    font-weight: 500;
 }
 
 
