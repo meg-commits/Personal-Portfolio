@@ -4,12 +4,12 @@
 }
 
 body {
-     font-family: "Inter", sans-serif;
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     flex-wrap: wrap;
+     font-family: "Inter", sans-serif;   
+}
+
+main {
+    width: 1200px;
+    margin: auto;
 }
 
 /* Headings */
@@ -51,17 +51,22 @@ header {
     border: 1px solid #000;
 }
 
+.header-link {
+     font-weight: 500;
+}
+
 h1 {
     font-size: 60px;
     text-transform: uppercase;
 }
 
+h2, 
 h3 {
-    margin-top: 10px;
+    font-size: 30px;
 }
 
+
 header p,
-#about p,
 #contact p {
     padding: 20px 0 20px 0;
     width: 500px;
@@ -71,18 +76,39 @@ header p,
 /* About */
 
 #about {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
     border: 1px solid #000;
+}
+
+#about p {
+    padding-bottom: 50px;
+    width: 500px;
+    line-height: 1.5;
 }
 
 /* Work */
 
+#work {
+    display: grid;
+    grid-template-columns: 1fr;
+    display-template-rows: repeat(2, auto);
+    grid-gap: 50px;
+}
+
+
 .project-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: grid;
+   grid-template-columns: repeat(2, 600px);
+   grid-template-rows: repeat(2, auto);
+   justify-content: center;
+   align-content: center;
+   grid-gap: 40px;
 }
 
 .project-container {
+    justify-self: center;
+    align-self-center;
     margin: 0 20px 0 20px;
 }
 
@@ -97,21 +123,7 @@ header p,
 
 /* Skills */
 
-#skills {
-    display: flex; 
-}
-
-#skills h2 {
-    width: 600px;
-    margin: auto;
-}
-
 #skills ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 600px;
-    margin: auto;
     padding: 40px 0 40px 0;
 }
 
@@ -140,7 +152,7 @@ header p,
 section {
     display: flex;
     flex-direction: column;
-    padding: 200px;
+    padding: 100px;
 }
 
 h2 {
