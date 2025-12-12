@@ -8,7 +8,7 @@ body {
 }
 
 main {
-    width: 1200px;
+    width: 1280px;
     margin: auto;
 }
 
@@ -161,7 +161,7 @@ header p,
 section {
     display: flex;
     flex-direction: column;
-    padding: 100px;
+    padding: 100px 0 100px 0;
 }
 
 h2 {
