@@ -36,7 +36,7 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
-    padding: 0 5px 0 5px;
+    padding: 0 15px;
 }
 
 #logo a {
@@ -74,12 +74,20 @@ h3 {
     font-size: 30px;
 }
 
+p {
+    color: #474747;
+}
+
 
 header p,
 #contact p {
     padding: 20px 0 20px 0;
-    width: 500px;
     line-height: 1.5;
+}
+
+header > p {
+    color: #000;
+    font-size: 20px;
 }
 
 /* About */
@@ -154,6 +162,7 @@ header p,
 
 #contact p {
     text-align: center;
+    width: 500px;
 }
 
 /* General */
@@ -199,6 +208,10 @@ footer {
     padding: 30px;
     margin-top: 150px;
     font-weight: 500;
+}
+
+footer > p {
+    color: #000;
 }
 
 
