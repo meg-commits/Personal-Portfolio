@@ -36,7 +36,14 @@ nav ul {
 
 nav ul li {
     list-style-type: none;
+}
+
+.navlink {
     padding: 0 15px;
+}
+
+.navlink-contact {
+    padding-left: 15px;
 }
 
 #logo a {
@@ -54,7 +61,6 @@ header {
     align-items: center;
     padding: 100px 50px 100px 50px;
     width: 100%;
-    border: 1px solid #000;
 }
 
 .header-link {
@@ -95,7 +101,6 @@ header > p {
 #about {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-    border: 1px solid #000;
 }
 
 #about p {
