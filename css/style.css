@@ -133,6 +133,10 @@ header > p {
     margin: 0 20px 0 20px;
 }
 
+.project-container a {
+    font-weight: normal;
+}
+
 .project-details p {
     padding: 10px 0 10px 0;
 }
