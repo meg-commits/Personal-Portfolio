@@ -118,6 +118,15 @@ header > p {
     gap: 20px;
 }
 
+figure {
+    max-width: 600px;
+    padding: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 .project-grid {
    display: grid;
