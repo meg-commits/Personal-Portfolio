@@ -111,10 +111,11 @@ header > p {
 /* Work */
 
 #work {
-    display: grid;
-    grid-template-columns: 1fr;
-    display-template-rows: repeat(2, auto);
-    grid-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 
