@@ -8,8 +8,11 @@ body {
 }
 
 main {
-    width: 1280px;
-    margin: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+   gap: 50px;
 }
 
 /* Headings */
