@@ -109,7 +109,6 @@ header > p {
 }
 
 #about p {
-    padding-bottom: 50px;
     width: 500px;
     line-height: 1.5;
 }
@@ -194,7 +193,6 @@ img {
 section {
     display: flex;
     flex-direction: column;
-    padding: 100px 0 100px 0;
 }
 
 h2 {
@@ -229,9 +227,8 @@ button {
 footer {
     display: flex;
     justify-content: center;
-    padding: 30px;
-    margin-top: 150px;
     font-weight: 500;
+    padding: 30px;
 }
 
 footer > p {
