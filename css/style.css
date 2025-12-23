@@ -18,6 +18,14 @@ main {
    padding: 0 20px;
 }
 
+p {
+    max-width: 60ch;
+    margin: 0 auto;
+    line-height: 1.5;
+    text-align: center;
+    color: #474747;
+}
+
 .link {
     text-decoration: none;
     color: #000;
@@ -65,13 +73,9 @@ header {
     align-items: center;
     gap: 20px;
     width: 100%;
-    padding: 60px 0;
+    padding: 60px 20px;
 }
 
-header > p {
-    text-align: center;
-    line-height: 1.5;
-}
 
 h1 {
     font-size: clamp(2rem, 5vw, 4rem);
@@ -80,12 +84,6 @@ h1 {
     font-weight: 800;
     font-style: italic;
 }
-
-p {
-    color: #474747;
-    line-height: 1.5;
-}
-
 
 /* Main */
 
@@ -110,6 +108,10 @@ section {
     font-weight: 500;
 }
 
+#work h3 {
+    padding-top: 10px;
+}
+
 figure {
     max-width: 600px;
     padding: 30px;
@@ -122,6 +124,7 @@ figure div {
 
 figure p {
     padding: 5px 0;
+    text-align: left;
 }
 
 img {
@@ -153,6 +156,10 @@ img {
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+#contact h2 {
+    text-transform: capitalize;
 }
 
 .contact-links {
