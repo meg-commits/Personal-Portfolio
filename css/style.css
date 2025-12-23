@@ -1,10 +1,7 @@
 * {
-    box-sizing: border-box;
-}
-
-html, body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -21,14 +18,12 @@ main {
    padding: 0 20px;
 }
 
-/* Headings */
-
-h1, 
-h2,
-h3,
-button {
-    font-family: "Be Vietnam Pro", sans-serif;
+.link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
 }
+
 
 /* Navigation */
 
@@ -47,8 +42,6 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 10px;
-    margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -62,6 +55,7 @@ nav ul li {
     font-weight: 700;
 }
 
+
 /* Header */
 
 header {
@@ -69,52 +63,37 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     width: 100%;
+    padding: 60px 0;
 }
 
-.header-link {
-     font-weight: 500;
+header > p {
+    text-align: center;
+    line-height: 1.5;
 }
 
 h1 {
-    font-size: 96px;
+    font-size: clamp(2rem, 5vw, 4rem);
     text-transform: uppercase;
     font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 800;
     font-style: italic;
 }
 
-h2, 
-h3 {
-    font-size: 30px;
-}
-
 p {
     color: #474747;
-}
-
-
-header p,
-#contact p {
-    padding: 20px 0 20px 0;
     line-height: 1.5;
 }
 
-header > p {
-    color: #000;
-    font-size: 20px;
+/* Main */
+
+section {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0;
 }
 
-/* About */
-
-#about {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-}
-
-#about p {
-    line-height: 1.5;
-}
 
 /* Work */
 
@@ -164,15 +143,21 @@ img {
     font-weight: 500;
 }
 
-/* Skills */
 
-#skills ul {
-    padding: 40px 0 40px 0;
+/* About */
+
+#about {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 20px;
 }
 
-#skills ul li {
-    list-style: none;
+#about p {
+    text-align: center;
 }
+
 
 /* Contact */
 
@@ -180,49 +165,21 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#contact h2 {
-    font-size: 60px;
+    gap: 20px;
 }
 
 #contact p {
     text-align: center;
 }
 
-/* General */
-
-section {
+.contact-links {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
-h2 {
-    font-size: 20px;
-    text-transform: uppercase;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-button {
-    background-color: #000;
-    color: #fff;
-    width: 100px;
-    padding: 12px 10px;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-    text-transform: capitalize; 
-    font-weight: 500;
-}
-
-.link {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
-}
 
 /* Footer */
 
@@ -230,11 +187,7 @@ footer {
     display: flex;
     justify-content: center;
     font-weight: 500;
-    padding: 30px;
-}
-
-footer > p {
-    color: #000;
+    padding: 20px 0;
 }
 
 
