@@ -180,4 +180,24 @@ footer {
     padding: 20px 0;
 }
 
+/* Responsive styles */
 
+@media screen and (min-width: 768px) {
+    nav {
+        flex-direction: row; 
+        justify-content: space-between;
+        width: 80%; 
+        margin: 0 auto;
+    }
+
+    nav ul {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    #work {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
