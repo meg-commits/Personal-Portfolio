@@ -56,6 +56,10 @@ nav ul li {
     list-style: none;
 }
 
+.navlink:hover {
+    color: #555;
+}
+
 
 #logo a {
     text-transform: uppercase;
