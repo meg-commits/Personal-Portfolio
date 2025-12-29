@@ -67,12 +67,17 @@ nav ul li {
     font-weight: 700;
 }
 
+.menu-button {
+    background: none;
+    border: none;
+}
+
 .nav-menu {
     display: none;
 }
 
 .nav-menu.open {
-    display: block;
+    display: flex;
 }
 
 /* Header */
