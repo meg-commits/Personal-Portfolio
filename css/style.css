@@ -93,7 +93,7 @@ header {
 }
 
 #home p {
-    font-size: 21px;
+    font-size: 18px;
     color: #000000;
 }
 
@@ -204,6 +204,10 @@ footer {
 /* Responsive styles */
 
 @media screen and (min-width: 768px) {
+    #home p {
+        font-size: 21px;
+    }
+    
     nav {
         flex-direction: row; 
         justify-content: space-between;
@@ -211,7 +215,7 @@ footer {
         margin: 0 auto;
     }
 
- nav ul {
+    nav ul {
         flex-direction: row;
         gap: 30px;
     }
