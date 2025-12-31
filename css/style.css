@@ -153,6 +153,13 @@ img {
     height: auto;
 }
 
+.overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* About */
