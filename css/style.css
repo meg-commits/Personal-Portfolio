@@ -136,6 +136,7 @@ section {
 figure {
     max-width: 600px;
     padding: 30px;
+    position: relative;
 }
 
 figure div {
@@ -158,8 +159,8 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: relative;
-    bottom: 280px;
+    position: absolute;
+    top: 180px;
 }
 
 
