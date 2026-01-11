@@ -129,9 +129,6 @@ section {
     font-weight: 500;
 }
 
-#work h3 {
-    padding-top: 10px;
-}
 
 figure {
     max-width: 600px;
@@ -164,7 +161,6 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
 
 
 /* About */
