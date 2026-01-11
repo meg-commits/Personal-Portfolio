@@ -136,6 +136,10 @@ figure {
     position: relative;
 }
 
+figure:hover {
+    opacity: 1;
+}
+
 figure div {
     display: flex;
     gap: 10px;
@@ -160,6 +164,9 @@ img {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background:   background-color: rgba(0, 0, 0, 0.5);
 }
 
 
