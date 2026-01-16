@@ -163,13 +163,15 @@ img {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -61%);
     opacity: 0;
     transition: opacity 0.3s;
-    background:   background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay:hover {
+    width: 540px;
+    height: 360px;
     opacity: 1;
     transition: opacity 0.5s;
 }
