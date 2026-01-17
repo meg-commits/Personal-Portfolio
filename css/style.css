@@ -155,6 +155,10 @@ img {
     height: auto;
 }
 
+img:hover {
+    transform: scale(1.5);
+}
+
 .overlay {
     display: flex;
     flex-direction: column;
