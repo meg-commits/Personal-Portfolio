@@ -5,7 +5,7 @@
 }
 
 body {
-     font-family: "Inter", sans-serif;   
+     font-family: "Syne", sans-serif;  
      display: flex;
      flex-direction: column;
      gap: 50px;
@@ -57,7 +57,7 @@ nav ul li {
 }
 
 .active {
-    color: #FFBF00;
+    color: #EF9B0F;
 }
 
 .navlink:hover {
@@ -67,7 +67,6 @@ nav ul li {
 
 #logo a {
     text-transform: uppercase;
-    font-family: "Be Vietnam Pro", sans-serif;
     font-weight: 700;
 }
 
@@ -91,7 +90,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
     width: 100%;
     padding: 60px 20px;
 }
@@ -103,11 +102,8 @@ header {
 
 
 h1 {
-    font-size: clamp(2rem, 5vw, 4rem);
-    text-transform: uppercase;
-    font-family: "Be Vietnam Pro", sans-serif; 
-    font-weight: 900;
-    font-style: italic;
+    font-size: clamp(2rem, 5vw, 5rem); 
+    font-weight: 800;
 }
 
 /* Main */
@@ -138,6 +134,10 @@ figure {
     max-width: 600px;
     padding: 30px;
     position: relative;
+}
+
+figcaption {
+    padding-top: 10px;
 }
 
 figure:hover {
