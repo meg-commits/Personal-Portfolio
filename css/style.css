@@ -108,6 +108,10 @@ h1 {
     font-weight: 800;
 }
 
+h2 {
+    font-size: 32px;
+}
+
 /* Main */
 
 section {
@@ -124,7 +128,7 @@ section {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .work-link {
@@ -195,7 +199,7 @@ img {
  flex-direction: column;
  justify-content: center;
  align-items: center;
- gap: 20px;
+ gap: 50px;
 }
 
 #about p {
@@ -210,7 +214,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 #contact h2 {
