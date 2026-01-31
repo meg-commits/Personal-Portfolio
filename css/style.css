@@ -1,173 +1,255 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-     font-family: "Syne", sans-serif;  
-     display: flex;
-     flex-direction: column;
-     gap: 50px;
+  font-family: "Syne", sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
 }
 
 main {
-   display: flex;
-   flex-direction: column;
-   gap: 50px; 
-   padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 0 20px;
 }
 
 p {
-    max-width: 60ch;
-    margin: 0 auto;
-    line-height: 1.5;
-    text-align: center;
-    color: #474747;
+  max-width: 60ch;
+  margin: 0 auto;
+  line-height: 1.5;
+  text-align: center;
+  color: #474747;
 }
 
 .link {
-    text-decoration: none;
-    color: #000;
-    font-weight: 500;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
 }
-
 
 /* Navigation */
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 16px;
 }
 
 nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 nav ul li {
-    /* font-size: 18px; */
-    list-style: none;
+  /* font-size: 18px; */
+  list-style: none;
 }
 
 .active {
-    color: #EF9B0F;
+  color: #ef9b0f;
 }
 
 .navlink:hover {
-    color: #555;
+  color: #555;
 }
 
-
 #logo a {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .menu-button {
-    display: block;
-    background: none;
-    border: none;
-    font-size: 18px;
+  display: block;
+  background: none;
+  border: none;
+  font-size: 18px;
 }
 
 .nav-menu {
-    display: none;
+  display: none;
 }
 
 .nav-menu.open {
-    display: flex;
+  display: flex;
 }
 
 /* Header */
 
 header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    width: 100%;
-    padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  padding: 60px 20px;
 }
 
 #home p {
-    font-size: 18px;
-    color: #000000;
+  font-size: 18px;
+  color: #000000;
 }
 
-
 h1 {
-    font-size: clamp(2rem, 5vw, 5rem); 
-    font-weight: 800;
+  font-size: clamp(2rem, 5vw, 5rem);
+  font-weight: 800;
 }
 
 h2 {
-    font-size: 28px;
+  font-size: 28px;
 }
 
 /* Main */
 
 section {
-    display: flex;
-    flex-direction: column;
-    padding: 60px 0;
+  display: flex;
+  flex-direction: column;
+  padding: 60px 0;
 }
-
 
 /* Work */
 
 #work {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    gap: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
 }
 
 .work-link {
-    font-weight: 500;
-    border: 1px solid #000;
-    border-radius: 30px;
-    padding: 8px 12px;
+  font-weight: 500;
+  border: 1px solid #000;
+  border-radius: 30px;
+  padding: 8px 12px;
 }
 
-
 figure {
-    max-width: 600px;
-    padding: 30px;
-    position: relative;
+  max-width: 600px;
+  padding: 30px;
+  position: relative;
 }
 
 figcaption {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 figure:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 figure div {
-    display: flex;
-    gap: 10px;
+  display: flex;
+  gap: 10px;
 }
 
 figure p {
-    padding: 5px 0;
-    text-align: left;
+  padding: 5px 0;
+  text-align: left;
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
 
-.overlay {
+/* About */
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#about p {
+  text-align: justify;
+  padding-top: 15px;
+  line-height: 1.8;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#contact h2 {
+  text-transform: capitalize;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-weight: 500;
+  padding: 20px 0;
+}
+
+/* Responsive styles Desktop */
+
+@media screen and (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
+
+  #home p {
+    font-size: 21px;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  nav ul {
+    flex-direction: row;
+    gap: 30px;
+  }
+
+  .menu-button {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .contact-links {
+    flex-direction: row;
+  }
+
+  .overlay {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -179,106 +261,13 @@ img {
     height: 100%;
     transform: translate(-50%, -60%);
     opacity: 0;
-}
+  }
 
-.overlay:hover {
+  .overlay:hover {
     width: 540px;
     height: 360px;
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
     transition: opacity 0.2s ease;
-    /* transform: scale(1.05);  */
-}
-
-
-/* About */
-
-#about {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- gap: 50px;
-}
-
-#about p {
-    text-align: justify;
-    padding-top: 15px;
-    line-height: 1.8;
-}
-
-
-/* Contact */
-
-#contact {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-
-#contact h2 {
-    text-transform: capitalize;
-}
-
-.contact-links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-
-/* Footer */
-
-footer {
-    display: flex;
-    justify-content: center;
-    font-weight: 500;
-    padding: 20px 0;
-}
-
-/* Responsive styles Desktop */
-
-@media screen and (min-width: 768px) {
-    
-    h2 {
-        font-size: 32px;
-    }
-
-    #home p {
-        font-size: 21px;
-    }
-     
-     nav {
-        flex-direction: row; 
-        justify-content: space-between;
-        width: 80%; 
-        margin: 0 auto;
-    }  
- 
-    nav ul {
-        flex-direction: row;
-        gap: 30px;
-    } 
-
-    .menu-button {
-        display: none;
-    } 
-
-     .nav-menu {
-        display: flex;
-    } 
- 
-   .work-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
-    } 
-
-    .contact-links {
-        flex-direction: row;
-    } 
-
+  }
 }
