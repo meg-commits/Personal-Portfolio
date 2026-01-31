@@ -150,6 +150,10 @@ section {
   padding: 8px 12px;
 }
 
+.overlay {
+    display: none;
+}
+
 figure {
   max-width: 600px;
   padding: 30px;
@@ -169,6 +173,7 @@ figure p {
   padding: 5px 0;
   text-align: left;
 }
+
 
 /* ======================
    About
