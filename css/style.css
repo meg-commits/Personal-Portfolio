@@ -37,11 +37,10 @@ p {
 
 nav {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     gap: 20px;
-    padding: 20px 0;
+    padding: 20px 16px;
 }
 
 nav ul {
@@ -73,6 +72,7 @@ nav ul li {
 }
 
 .menu-button {
+    display: block;
     background: none;
     border: none;
 }
@@ -240,42 +240,42 @@ footer {
     padding: 20px 0;
 }
 
-/* Responsive styles */
+/* Responsive styles Desktop */
 
 @media screen and (min-width: 768px) {
  
     #home p {
         font-size: 21px;
     }
-    
-    nav {
+     
+     nav {
         flex-direction: row; 
         justify-content: space-between;
         width: 80%; 
         margin: 0 auto;
-    }
-
+    }  
+ 
     nav ul {
         flex-direction: row;
         gap: 30px;
-    }
+    } 
 
     .menu-button {
         display: none;
-    }
+    } 
 
-    .nav-menu {
+     .nav-menu {
         display: flex;
-    }
-
-    .work-grid {
+    } 
+ 
+   .work-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
-    }
+    } 
 
     .contact-links {
         flex-direction: row;
-    }
+    } 
 
 }
