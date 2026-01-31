@@ -75,6 +75,7 @@ nav ul li {
     display: block;
     background: none;
     border: none;
+    font-size: 18px;
 }
 
 .nav-menu {
