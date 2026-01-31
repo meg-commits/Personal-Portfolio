@@ -110,7 +110,7 @@ h1 {
 }
 
 h2 {
-    font-size: 32px;
+    font-size: 28px;
 }
 
 /* Main */
@@ -244,7 +244,11 @@ footer {
 /* Responsive styles Desktop */
 
 @media screen and (min-width: 768px) {
- 
+    
+    h2 {
+        font-size: 32px;
+    }
+
     #home p {
         font-size: 21px;
     }
