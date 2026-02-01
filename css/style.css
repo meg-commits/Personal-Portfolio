@@ -105,9 +105,10 @@ nav ul li {
   display: flex;
   position: fixed;
   top: 0;
-  right: 60px;
+  right: 50px;
   bottom: 0;
   left: 0;
+  z-index: 1;
   background: #474747;
 }
 
