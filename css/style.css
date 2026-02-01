@@ -18,7 +18,7 @@ body {
 main {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 80px;
   padding: 0 20px;
 }
 
@@ -138,7 +138,6 @@ header {
 section {
   display: flex;
   flex-direction: column;
-  /* padding: 60px 0; */
 }
 
 /* ======================
