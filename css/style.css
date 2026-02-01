@@ -281,13 +281,13 @@ footer {
     left: 50%;
     width: 100%;
     height: 100%;
-    transform: translate(-50%, -60%);
+    transform: translate(-50%, -63%); /* Not accurate. Fix. */ 
     opacity: 0;
   }
 
   figure:hover .overlay {
-    width: 540px;
-    height: 360px;
+    width: 600px;
+    height: 400px;
     opacity: 1;
     background-color: rgba(0, 0, 0, 0.5);
     transition: opacity 0.2s ease;
